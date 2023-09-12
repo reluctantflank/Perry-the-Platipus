@@ -1,31 +1,184 @@
-
 body{
-  background-color: #CEDEBD;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
-  hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    height: 0px;
-    width: 5%;
-  }
-h1{
+img{
+       height: 180px;
+       width: 180px;
+     }
+
+
+h1, h2, h3{
   color: #435334;
   }
-h3{
-    color: #435334;
-    }
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+  font-weight: lighter;
+  color: #9EB384;
+}
 p  {
       color: #557153;
+      font-family: 'Montserrat', sans-serif;
     }
-table{
-  color: #798777;
-  height: inherit;
-  width: inherit;
+
+/* first container */
+
+.first-container {
+  background-color: #E1ECC8;
+  text-align: center;
+  padding: 100px 0 100px;
+  padding: 7% 15%;
 }
 
-ul{
-  color: #557153;
+.intro {
+  color: #9EB384;
+}
+
+.heading {
+  font-size: 5.625rem;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #435334;
+    font-weight: bold;
+}
+
+.about{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.details {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.prerna-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#her-pics {
+  text-align: center;
+  background-color: #CEDEBD;
+  color: #9EB384;
+}
+
+.pics-heading {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+  font-weight: bold;
+  padding-top: 7%;
+}
+
+.pics-bottom-heading {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+  font-weight: bold;
+  padding-bottom: 7%;
+}
+
+.hello {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #9EB384;
+}
+
+.about-likes-dislikes {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #CEDEBD
+}
+
+.likes {
+  padding: 7% 15%;
+}
+
+.likes-heading {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+  font-weight: bold;
+  padding-bottom: 10%;
+  color: #9EB384;
+}
+
+.dislikes-heading {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+  font-weight: bold;
+  padding-bottom: 7%;
+  color: #9EB384;
+}
+
+.third-container {
+  padding:  7% 15%;
+  text-align: center;
+  margin: 100px 0;
+}
+
+.insta-icon {
+  margin: 20px 10px;
+}
+
+.hr-in-likes-dislikes {
+  border: dotted #435334 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.MAH {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #9EB384;
+}
+
+.kitty-pic {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cute-pic {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.listen-pic {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.-pic {
+  width: 25%;
+
+  float: right;
+  margin-left: 30px;
+}
+
+.DID {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
 }
