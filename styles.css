@@ -4,11 +4,6 @@ body{
   font-family: 'Merriweather', serif;
 }
 
-img{
-       height: 60%;
-       width: 60%;
-     }
-
 
 h1, h2, h3{
   color: #435334;
@@ -63,7 +58,8 @@ p  {
 }
 
 .prerna-img{
-  width: 10%;
+  width: 60%;
+  height: 60%;
   border-radius: 100%;
   margin: 20px;
 }
@@ -129,7 +125,7 @@ p  {
 .third-container {
   padding:  7% 15%;
   text-align: center;
-  margin: 100px 0;
+
 }
 
 .insta-icon {
@@ -171,9 +167,13 @@ p  {
   margin-right: 30px;
 }
 
-
 .DID {
   margin: 100px auto 100px auto;
   width: 50%;
   text-align: left;
+}
+
+.dawn-img {
+  height: 180px;
+  width: 180px;
 }
